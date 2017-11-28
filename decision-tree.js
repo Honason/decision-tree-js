@@ -384,13 +384,11 @@ var dt = (function() {
     return result;
   }
 
-  var exports = {};
-  exports.DecisionTree = DecisionTree;
-  exports.RandomForest = RandomForest;
-  return exports;
+  return {
+    DecisionTree,
+    RandomForest
+  };
 })();
-
-console.log(dt);
 
 if (typeof window !== "undefined") {
   window.dt = dt;
