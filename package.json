@@ -4,5 +4,5 @@
   "version": "0.0.1",
   "author": "Jan Bacik",
   "repository": "git://github.com/Honason/decision-tree-js",
-  "main": "./decision-tree-min.js"
+  "main": "./decision-tree.js"
 }
